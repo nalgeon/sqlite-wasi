@@ -1,0 +1,12 @@
+28750,28752c28750,28752
+< #ifdef SQLITE_SHELL_FIDDLE
+< #  define main fiddle_main
+< #endif
+---
+> // #ifdef SQLITE_SHELL_FIDDLE
+> // #  define main fiddle_main
+> // #endif
+29093c29093
+<   process_sqliterc(&data,zInitFile);
+---
+> // process_sqliterc(&data,zInitFile);
