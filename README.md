@@ -5,7 +5,6 @@ This is a [WASI](https://wasi.dev/) build of the SQLite 3.44 shell, compiled wit
 It is published as an NPM package [@antonz/sqlite-wasi](https://www.npmjs.com/package/@antonz/sqlite-wasi):
 
 ```
-https://unpkg.com/@antonz/sqlite-wasi/dist/index.js
 https://unpkg.com/@antonz/sqlite-wasi/dist/sqlite.wasm
 ```
 
