@@ -1,6 +1,6 @@
 # SQLite WASI build
 
-This is a [WASI](https://wasi.dev/) build of the SQLite shell, compiled with [wasienv](https://github.com/wasienv/wasienv).
+This is a [WASI](https://wasi.dev/) build of the SQLite 3.44 shell, compiled with [wasienv](https://github.com/wasienv/wasienv).
 
 It is published as an NPM package [@antonz/sqlite-wasi](https://www.npmjs.com/package/@antonz/sqlite-wasi):
 
@@ -24,13 +24,6 @@ const result = await WASI.start(wasm, {
     stderr: (err) => console.error(err),
 });
 console.log("exit code =", result.exitCode);
-```
-
-Result:
-
-```
-3.44.2 2023-11-24 11:41:44 ...
-exit code = 0
 ```
 
 ## Building from source
